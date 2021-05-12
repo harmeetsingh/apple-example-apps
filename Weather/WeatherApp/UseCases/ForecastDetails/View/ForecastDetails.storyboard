@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fbQ-Cn-xw4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Forecast Details View Controller-->
+        <scene sceneID="4he-QU-f2h">
+            <objects>
+                <viewController id="fbQ-Cn-xw4" customClass="ForecastDetailsViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sbm-Bb-Xu1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kq1-ct-uQ0">
+                                <rect key="frame" x="161" y="331" width="92.5" height="234"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUe-JZ-1xD">
+                                        <rect key="frame" x="0.0" y="0.0" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day Temp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6df-5S-iNh">
+                                        <rect key="frame" x="0.0" y="30.5" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Night Temp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cap-rP-TaR">
+                                        <rect key="frame" x="0.0" y="61" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunrise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIP-Vs-wAH">
+                                        <rect key="frame" x="0.0" y="91.5" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xs7-V1-Cfe">
+                                        <rect key="frame" x="0.0" y="122" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMV-J1-Fjf">
+                                        <rect key="frame" x="0.0" y="152.5" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRj-rq-dOV">
+                                        <rect key="frame" x="0.0" y="183" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wind Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDM-oA-6ey">
+                                        <rect key="frame" x="0.0" y="213.5" width="92.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy" translatesAutoresizingMaskIntoConstraints="NO" id="O2E-tA-51C">
+                                <rect key="frame" x="173" y="181" width="68" height="50"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.90341065528634357" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kq1-ct-uQ0" firstAttribute="centerY" secondItem="Sbm-Bb-Xu1" secondAttribute="centerY" id="QQQ-LO-GmL"/>
+                            <constraint firstItem="O2E-tA-51C" firstAttribute="centerX" secondItem="Sbm-Bb-Xu1" secondAttribute="centerX" id="Wi9-zE-Pkc"/>
+                            <constraint firstItem="Kq1-ct-uQ0" firstAttribute="centerX" secondItem="Sbm-Bb-Xu1" secondAttribute="centerX" id="aVa-tB-bHi"/>
+                            <constraint firstItem="Kq1-ct-uQ0" firstAttribute="top" secondItem="O2E-tA-51C" secondAttribute="bottom" constant="100" id="v4t-QV-fya"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nLP-rv-lQb"/>
+                    </view>
+                    <connections>
+                        <outlet property="dayTemeratureLabel" destination="6df-5S-iNh" id="t0U-Hi-aIn"/>
+                        <outlet property="humidityLabel" destination="aRj-rq-dOV" id="Jim-2m-HPM"/>
+                        <outlet property="imageView" destination="O2E-tA-51C" id="qwO-qV-6kl"/>
+                        <outlet property="nightTemperatureLabel" destination="Cap-rP-TaR" id="n6S-2S-vBQ"/>
+                        <outlet property="pressureLabel" destination="TMV-J1-Fjf" id="kB6-P8-Q9W"/>
+                        <outlet property="sunriseLabel" destination="dIP-Vs-wAH" id="CWR-NT-Ked"/>
+                        <outlet property="sunsetLabel" destination="Xs7-V1-Cfe" id="ax7-hm-hJe"/>
+                        <outlet property="titleLabel" destination="cUe-JZ-1xD" id="Bin-Z0-3wu"/>
+                        <outlet property="windSpeedLabel" destination="lDM-oA-6ey" id="jHr-TT-8kJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qWp-TG-xTL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-61" y="19"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloudy" width="67.666664123535156" height="50"/>
+    </resources>
+</document>

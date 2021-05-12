@@ -1,0 +1,26 @@
+{
+  "dt": 1573124400,
+  "sunrise": 1573110242,
+  "sunset": 1573143878,
+  "temp": {
+    "day": 9.61,
+    "min": 6.67,
+    "max": 9.87,
+    "night": 6.67,
+    "eve": 8.32,
+    "morn": 9.61
+  },
+  "pressure": 993,
+  "humidity": 59,
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "speed": 5.07,
+  "deg": 250,
+  "clouds": 80
+}
